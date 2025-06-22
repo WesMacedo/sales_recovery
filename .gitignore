@@ -1,0 +1,29 @@
+# Ignorar arquivos e pastas específicos do projeto
+#application/.env
+#assets/anexos/
+#assets/userImage/
+info.txt
+update.ps1
+
+# VS Code
+.vscode/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.swp
+*.swo
+
+# Arquivos de sessão e temporários
+*.tmp
+*.temp
+*.sess
+
+# Cache e logs do CodeIgniter
+application/cache/*
+!application/cache/index.html
+application/logs/*
+!application/logs/index.html
+/vendor/
